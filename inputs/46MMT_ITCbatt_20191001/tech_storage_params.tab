@@ -1,0 +1,5 @@
+storage_technology	charging_efficiency	discharging_efficiency	min_duration_h
+Li_Battery	0.921954445729289	0.921954445729289	1
+Flow_Battery	0.836660026534076	0.836660026534076	1
+Pumped_Hydro	0.9	0.9	12
+BTM_Li_Battery	0.921954445729289	0.921954445729289	1

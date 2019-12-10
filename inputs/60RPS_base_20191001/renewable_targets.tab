@@ -1,0 +1,5 @@
+period	non_modeled_rps_resources_mwh	rps_bank_planned_spend_mwh	pipeline_biogas_available_mmbtu_per_year	incremental_pipeline_biogas_cost_per_mmbtu	rps_unbundled_fraction_limit	retail_sales_mwh	RPS_as_fractions_of_retail_sales
+2020	2847608.82	0	0	0	0.327002960974829	199599855.776799	0.33
+2022	2847608.82	1724331.621697	0	0	0.316133674776098	199722828.809155	0.384
+2026	2847608.82	23712970.1023547	0	0	0.301952928522143	198429597.907062	0.492
+2030	2847608.82	0	0	0	0.293438327871002	194606453.84033	0.6

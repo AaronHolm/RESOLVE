@@ -1,0 +1,17 @@
+simultaneous_flows_group	transmission_line	direction
+NW_to_CA	NW_to_CAISO	1
+NW_to_CA	NW_to_LDWP	1
+NW_to_CA	NW_to_BANC	1
+CAISO_Import_Limit	SW_to_CAISO	1
+CAISO_Import_Limit	NW_to_CAISO	1
+CAISO_Import_Limit	LDWP_to_CAISO	1
+CAISO_Import_Limit	IID_to_CAISO	1
+CAISO_Import_Limit	BANC_to_CAISO	1
+CA_to_NW	NW_to_CAISO	-1
+CA_to_NW	NW_to_LDWP	-1
+CA_to_NW	NW_to_BANC	-1
+CAISO_Export_Limit	SW_to_CAISO	-1
+CAISO_Export_Limit	NW_to_CAISO	-1
+CAISO_Export_Limit	LDWP_to_CAISO	-1
+CAISO_Export_Limit	IID_to_CAISO	-1
+CAISO_Export_Limit	BANC_to_CAISO	-1

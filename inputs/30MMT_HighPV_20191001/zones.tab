@@ -1,0 +1,8 @@
+zone	spin_reserve_fraction_of_load	include_in_rps_target	include_in_load_following	include_in_ghg_target	include_in_prm
+CAISO	0.03	1	1	1	1
+BANC	0	0	0	0	0
+IID	0	0	0	0	0
+LDWP	0	0	0	0	0
+NW	0	0	0	0	0
+SW	0	0	0	0	0
+CAISO_NW_Hydro	0	0	0	1	0

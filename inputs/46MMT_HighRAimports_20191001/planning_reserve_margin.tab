@@ -1,0 +1,5 @@
+period	period_planning_reserve_margin	prm_peak_load_mw	prm_annual_load_mwh	prm_planned_import_capacity_mw	prm_import_resource_capacity_adjustment_mw	local_capacity_deficiency_mw	allow_unspecified_import_contribution
+2020	0.15	49406.6594206684	237253834.190717	10193	-1898.894	0	1
+2022	0.15	50404.9879120309	240056282.909242	10193	-1898.894	0	1
+2026	0.15	51344.0047970321	242234910.173982	10193	-1418.894	0	1
+2030	0.15	51747.2925149731	242392303.793127	10193	-1418.894	0	1

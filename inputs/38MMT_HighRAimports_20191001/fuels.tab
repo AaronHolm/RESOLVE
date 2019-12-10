@@ -1,0 +1,8 @@
+fuels	tco2_per_mmbtu	can_blend_with_pipeline_biogas
+CA_Natural_Gas	0.053	False
+NW_Natural_Gas	0.053	False
+SW_Natural_Gas	0.053	False
+CA_Coal	0.094	False
+Coal	0.094	False
+Uranium	0	False
+Conventional_DR	0	False

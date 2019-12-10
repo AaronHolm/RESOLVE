@@ -1,0 +1,9 @@
+results/Framing2045_HighHydrogen_20191001/operations.csv filter=lfs diff=lfs merge=lfs -text
+results/Framing2045_HighElectrification_20191001/operations.csv filter=lfs diff=lfs merge=lfs -text
+results/Framing2045_HighBiofuels_20191001/operations.csv filter=lfs diff=lfs merge=lfs -text
+results/Framing2045_HighElectrification_OOSWind_20191001/operations.csv filter=lfs diff=lfs merge=lfs -text
+results/Framing2045_HighElectrification_OffshoreWind_20191001/operations.csv filter=lfs diff=lfs merge=lfs -text
+results/*/operations.csv filter=lfs diff=lfs merge=lfs -text
+results/*/summary/dispatch/operations_by_zone_resource_tmp.csv filter=lfs diff=lfs merge=lfs -text
+logs/*/*.lp filter=lfs diff=lfs merge=lfs -text
+RESOLVE_20191004.zip filter=lfs diff=lfs merge=lfs -text

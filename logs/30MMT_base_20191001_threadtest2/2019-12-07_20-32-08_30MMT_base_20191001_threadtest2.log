@@ -1,0 +1,118 @@
+Reading model...
+...model read.
+Loading data...
+...data read.
+Compiling instance...
+...instance created.
+Solving...
+Welcome to the CBC MILP Solver 
+Version: 2.9.9 
+Build Date: Aug 21 2017 
+
+command line - /usr/bin/cbc -ratio 0.5 -threads 12 -startalg barrier -printingOptions all -import /home/aholm/RESOLVE/logs/30MMT_base_20191001_threadtest2/tmpxuyld_45.pyomo.lp -stat=1 -solve -solu /home/aholm/RESOLVE/logs/30MMT_base_20191001_threadtest2/tmpxuyld_45.pyomo.soln (default strategy 1)
+ratioGap was changed from 0 to 0.5
+threads was changed from 0 to 12
+No match for startalg - ? for list of commands
+** Current model not valid
+Option for printingOptions changed from normal to all
+Presolve 1157854 (-722020) rows, 1094652 (-746327) columns and 6789867 (-2738019) elements
+Statistics for presolved model
+
+
+Problem has 1157854 rows, 1094652 columns (578761 with objective) and 6789867 elements
+There are 98136 singletons with objective 
+Column breakdown:
+991820 of type 0.0->inf, 50607 of type 0.0->up, 0 of type lo->inf, 
+52225 of type lo->up, 0 of type free, 0 of type fixed, 
+0 of type -inf->0.0, 0 of type -inf->up, 0 of type 0.0->1.0 
+Row breakdown:
+185659 of type E 0.0, 0 of type E 1.0, 0 of type E -1.0, 
+42487 of type E other, 9 of type G 0.0, 0 of type G 1.0, 
+7126 of type G other, 692106 of type L 0.0, 0 of type L 1.0, 
+230467 of type L other, 0 of type Range 0.0->1.0, 0 of type Range other, 
+0 of type Free 
+Presolve 1157854 (-722020) rows, 1094652 (-746327) columns and 6789867 (-2738019) elements
+Perturbing problem by 0.001 %% of 355.53073 - largest nonzero change 0.00045553064 (%% 6.4002361) - largest zero change 0.00045553057
+0  Obj 5.1411467e+10 Primal inf 5.5712759e+08 (100483) Dual inf 4.4826401e+09 (51010)
+0  Obj 5.1411467e+10 Primal inf 5.5712759e+08 (100483) Dual inf 6.0913183e+17 (580112)
+1217  Obj 3.9604988e+11 Primal inf 5.4877319e+08 (105500) Dual inf 6.044793e+17 (577618)
+2389  Obj 6.2982055e+11 Primal inf 5.416309e+08 (105287) Dual inf 5.9792472e+17 (575332)
+3524  Obj 7.9993706e+11 Primal inf 5.3430584e+08 (105049) Dual inf 5.9049766e+17 (572717)
+4759  Obj 1.095472e+12 Primal inf 5.2924393e+08 (104889) Dual inf 5.8445294e+17 (570170)
+5937  Obj 1.1081597e+12 Primal inf 5.2233374e+08 (104660) Dual inf 5.7745218e+17 (567510)
+7032  Obj 1.1378733e+12 Primal inf 5.1732265e+08 (104538) Dual inf 5.6477246e+17 (565318)
+8112  Obj 1.1371417e+12 Primal inf 5.1430026e+08 (104512) Dual inf 5.6416804e+17 (561973)
+9158  Obj 1.0471324e+12 Primal inf 5.1147947e+08 (105807) Dual inf 5.6591874e+17 (557677)
+10191  Obj 1.0260737e+12 Primal inf 5.0918797e+08 (105726) Dual inf 5.5076347e+17 (558322)
+11225  Obj 1.0175538e+12 Primal inf 5.0670356e+08 (105653) Dual inf 5.4094446e+17 (556967)
+12248  Obj 1.0187437e+12 Primal inf 5.0445489e+08 (105598) Dual inf 5.3590397e+17 (555186)
+13267  Obj 1.0224297e+12 Primal inf 5.0208576e+08 (105594) Dual inf 5.3257699e+17 (552914)
+14304  Obj 1.0243393e+12 Primal inf 4.9922172e+08 (105408) Dual inf 5.2198673e+17 (550460)
+15339  Obj 1.0257768e+12 Primal inf 4.9728371e+08 (104620) Dual inf 5.1564113e+17 (541608)
+16364  Obj 1.0271188e+12 Primal inf 4.9559159e+08 (105066) Dual inf 5.1356938e+17 (545559)
+17400  Obj 1.0259717e+12 Primal inf 4.9348618e+08 (104836) Dual inf 7.4117213e+17 (506857)
+18456  Obj 1.0267695e+12 Primal inf 4.9026202e+08 (104676) Dual inf 6.4211605e+17 (514587)
+19484  Obj 1.267184e+12 Primal inf 4.7901888e+08 (104983) Dual inf 5.0443668e+17 (536825)
+20510  Obj 1.9961002e+13 Primal inf 4.6669001e+08 (104900) Dual inf 5.1248556e+17 (535717)
+21546  Obj 1.997424e+13 Primal inf 4.6486294e+08 (104798) Dual inf 5.0949416e+17 (533230)
+22581  Obj 1.9946992e+13 Primal inf 4.6290273e+08 (104646) Dual inf 5.0547592e+17 (530464)
+23623  Obj 1.9914927e+13 Primal inf 4.6081136e+08 (104553) Dual inf 5.0117238e+17 (528810)
+24679  Obj 1.986521e+13 Primal inf 4.5874369e+08 (104445) Dual inf 4.9612757e+17 (526197)
+25707  Obj 1.9845583e+13 Primal inf 4.5668151e+08 (104296) Dual inf 5.2042718e+17 (523497)
+26739  Obj 1.9816571e+13 Primal inf 4.5452347e+08 (104172) Dual inf 9.7069031e+17 (500629)
+27826  Obj 1.9788114e+13 Primal inf 4.5244792e+08 (103958) Dual inf 1.2354166e+18 (481287)
+28962  Obj 1.9733026e+13 Primal inf 4.4951989e+08 (103758) Dual inf 6.2305619e+18 (465820)
+30093  Obj 1.9709507e+13 Primal inf 4.4720982e+08 (103577) Dual inf 9.217992e+17 (490695)
+31229  Obj 1.9776294e+13 Primal inf 4.452981e+08 (103425) Dual inf 9.4550585e+17 (487222)
+32372  Obj 1.9853527e+13 Primal inf 4.4288358e+08 (103229) Dual inf 6.8308507e+17 (493690)
+33491  Obj 1.9905796e+13 Primal inf 4.4050066e+08 (103139) Dual inf 7.0168482e+17 (492508)
+34606  Obj 1.9891977e+13 Primal inf 4.3810615e+08 (103282) Dual inf 8.7195385e+17 (486132)
+35729  Obj 1.9939473e+13 Primal inf 4.3616123e+08 (103297) Dual inf 1.7397854e+18 (451526)
+36832  Obj 1.9938221e+13 Primal inf 4.3427851e+08 (103084) Dual inf 2.9353447e+18 (443916)
+37996  Obj 1.9995447e+13 Primal inf 4.3099977e+08 (102995) Dual inf 6.80817e+17 (468556)
+39119  Obj 2.0056508e+13 Primal inf 4.2661948e+08 (102926) Dual inf 2.080673e+18 (444488)
+40201  Obj 2.0055491e+13 Primal inf 4.2447401e+08 (102729) Dual inf 3.4751353e+18 (458011)
+41300  Obj 2.0091694e+13 Primal inf 4.2059416e+08 (102542) Dual inf 1.7573751e+18 (463760)
+42401  Obj 1.9966656e+13 Primal inf 4.1745471e+08 (102283) Dual inf 5.8725964e+17 (456211)
+43496  Obj 1.9925989e+13 Primal inf 4.1488171e+08 (102041) Dual inf 5.8393049e+17 (452841)
+44603  Obj 1.9910993e+13 Primal inf 4.1221671e+08 (101810) Dual inf 5.9110263e+17 (451845)
+45721  Obj 1.9884621e+13 Primal inf 4.092155e+08 (101566) Dual inf 5.8560655e+17 (449384)
+46798  Obj 1.9891251e+13 Primal inf 4.0608853e+08 (101130) Dual inf 5.9666616e+17 (449887)
+47868  Obj 1.9822456e+13 Primal inf 4.0269828e+08 (101088) Dual inf 6.0009522e+17 (447719)
+48953  Obj 1.9805334e+13 Primal inf 3.9939116e+08 (100752) Dual inf 5.9329429e+17 (445172)
+50026  Obj 1.9738057e+13 Primal inf 3.9646663e+08 (100624) Dual inf 5.8673652e+17 (444012)
+51125  Obj 1.9721435e+13 Primal inf 3.9228096e+08 (100415) Dual inf 6.7564056e+17 (442866)
+52245  Obj 1.9705369e+13 Primal inf 3.8802176e+08 (100108) Dual inf 6.3114635e+17 (438577)
+53377  Obj 1.9608738e+13 Primal inf 3.8278026e+08 (99863) Dual inf 5.5019064e+17 (433884)
+54505  Obj 1.9611958e+13 Primal inf 3.7932732e+08 (99638) Dual inf 4.7763868e+17 (443637)
+55629  Obj 1.9624925e+13 Primal inf 3.7425296e+08 (99468) Dual inf 5.2290333e+17 (444931)
+56753  Obj 1.9665693e+13 Primal inf 3.6894768e+08 (99723) Dual inf 5.1696e+17 (442908)
+57875  Obj 1.9659782e+13 Primal inf 3.6242009e+08 (99471) Dual inf 5.1041299e+17 (440662)
+59012  Obj 1.9717581e+13 Primal inf 3.5619676e+08 (99242) Dual inf 5.0408877e+17 (438098)
+60239  Obj 1.9720922e+13 Primal inf 3.4985707e+08 (98769) Dual inf 4.9943181e+17 (436014)
+61469  Obj 1.9748176e+13 Primal inf 3.4385436e+08 (98482) Dual inf 4.9480656e+17 (434588)
+62734  Obj 1.9736875e+13 Primal inf 3.3974898e+08 (98150) Dual inf 4.9083933e+17 (433273)
+63959  Obj 1.9734647e+13 Primal inf 3.3606371e+08 (97764) Dual inf 4.8767236e+17 (430800)
+65169  Obj 1.9731842e+13 Primal inf 3.3154353e+08 (97461) Dual inf 4.8734918e+17 (429007)
+66420  Obj 1.9717919e+13 Primal inf 3.2717731e+08 (97814) Dual inf 4.8123549e+17 (429387)
+67632  Obj 1.9719169e+13 Primal inf 3.2346777e+08 (97397) Dual inf 4.7783561e+17 (427250)
+68830  Obj 1.9731104e+13 Primal inf 3.1921375e+08 (97029) Dual inf 4.7407411e+17 (425093)
+69946  Obj 1.9688927e+13 Primal inf 3.1464034e+08 (95962) Dual inf 4.6891296e+17 (422282)
+71155  Obj 1.9649382e+13 Primal inf 3.1013109e+08 (95239) Dual inf 4.6623938e+17 (420254)
+72288  Obj 1.9650891e+13 Primal inf 3.0543683e+08 (94671) Dual inf 4.6293448e+17 (418951)
+73476  Obj 1.9650923e+13 Primal inf 2.9958182e+08 (94135) Dual inf 4.5875443e+17 (417395)
+74644  Obj 1.962369e+13 Primal inf 2.931297e+08 (93761) Dual inf 4.5541317e+17 (416264)
+75859  Obj 1.9632365e+13 Primal inf 2.8903262e+08 (93470) Dual inf 4.5228702e+17 (414923)
+77022  Obj 1.9512266e+13 Primal inf 2.8187418e+08 (93182) Dual inf 4.5257792e+17 (413544)
+78124  Obj 1.9315869e+13 Primal inf 2.7687318e+08 (92680) Dual inf 4.5326084e+17 (411177)
+79189  Obj 1.9272253e+13 Primal inf 2.7386231e+08 (91601) Dual inf 3.2309388e+17 (406940)
+80346  Obj 1.9303922e+13 Primal inf 2.7050628e+08 (90891) Dual inf 6.1768003e+17 (410248)
+81537  Obj 1.9281239e+13 Primal inf 2.6567619e+08 (90211) Dual inf 8.2136062e+17 (408607)
+82688  Obj 1.9283487e+13 Primal inf 2.6082656e+08 (89770) Dual inf 1.5210823e+18 (395144)
+83865  Obj 1.926485e+13 Primal inf 2.552514e+08 (89329) Dual inf 7.2497733e+17 (404341)
+85096  Obj 1.9249034e+13 Primal inf 2.5132177e+08 (89024) Dual inf 7.210456e+17 (401973)
+86322  Obj 1.9250684e+13 Primal inf 2.4978082e+08 (88770) Dual inf 7.1919527e+17 (401092)
+  Signal handler called from  /home/aholm/anaconda3/envs/resolve/lib/python3.7/subprocess.py _try_wait 1582
+  Waiting...
+  Signaled process 2510 with signal 2
+87487  Obj 1.9241972e+1

@@ -1,0 +1,6 @@
+setup.py
+e3resolve.egg-info/PKG-INFO
+e3resolve.egg-info/SOURCES.txt
+e3resolve.egg-info/dependency_links.txt
+e3resolve.egg-info/requires.txt
+e3resolve.egg-info/top_level.txt

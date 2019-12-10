@@ -1,0 +1,5 @@
+period,prm_peak_load_MW,planning_reserve_margin_fraction,capacity_target_MW,system_capacity_MW,firm_capacity_MW,prm_planned_import_capacity_MW,prm_import_resource_capacity_adjustment_MW,storage_ELCC_MW,new_renewable_import_capacity_MW,variable_renewable_ELCC_MW,planning_reserve_margin_dual_$,local_capacity_deficiency_MW,local_capacity_dual_$,marginal_solar_elcc_mw_per_fraction_of_annual_load,marginal_wind_elcc_mw_per_fraction_of_annual_load,active_elcc_facet_index,prm_peak_load_MW_before_EE_MW
+2020,49406.66,0.15,56817.66,59432.95,39746.70,10193.00,-1898.89,2883.65,0,8508.49,0,0,0,3159.97,25524.01,17,49406.66
+2022,50404.99,0.15,57965.74,57965.74,36377.75,10193.00,-1898.89,3719.27,0,9574.60,-16348.50,0,0,1752.61,26192.55,21,50404.99
+2026,51344.00,0.15,59045.61,59045.61,30466.74,10193.00,-1418.89,9516.71,0,10288.05,-3032.95,0,0,2131.14,17455.36,23,51344.00
+2030,51747.29,0.15,59509.39,63076.60,28595.22,10193.00,-1418.89,15090.96,0,10616.31,0,0,0,2147.88,17592.46,23,51747.29

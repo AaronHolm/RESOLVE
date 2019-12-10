@@ -1,0 +1,44 @@
+Reading model...
+...model read.
+Loading data...
+...data read.
+Compiling instance...
+...instance created.
+Solving...
+
+Welcome to IBM(R) ILOG(R) CPLEX(R) Interactive Optimizer Community Edition 12.9.0.0
+  with Simplex, Mixed Integer & Barrier Optimizers
+5725-A06 5725-A29 5724-Y48 5724-Y49 5724-Y54 5724-Y55 5655-Y21
+Copyright IBM Corp. 1988, 2019.  All Rights Reserved.
+
+Type 'help' for a list of available commands.
+Type 'help' followed by a command name for more
+information on commands.
+
+CPLEX> Logfile 'cplex.log' closed.
+Logfile '/home/aholm/RESOLVE/logs/30MMT_base_20191001_fullcplex2/tmp1w3q8jvd.cplex.log' open.
+CPLEX> New value for method for linear optimization: 4
+CPLEX> Problem '/home/aholm/RESOLVE/logs/30MMT_base_20191001_fullcplex2/tmpc4d0j53u.pyomo.lp' read.
+Read time = 7.81 sec. (299.50 ticks)
+CPLEX> Problem name         : /home/aholm/RESOLVE/logs/30MMT_base_20191001_fullcplex2/tmpc4d0j53u.pyomo.lp
+Objective sense      : Minimize
+Variables            : 1840979  [Nneg: 1791251,  Free: 49728]
+Objective nonzeros   :  803551
+Linear constraints   : 1879874  [Less: 1160676,  Greater: 99773,  Equal: 619425]
+  Nonzeros           : 9527886
+  RHS nonzeros       :  516508
+
+Variables            : Min LB: 0.000000         Max UB: all infinite   
+Objective nonzeros   : Min   : 3.655871e-05     Max   : 5.215073e+09   
+Linear constraints   :
+  Nonzeros           : Min   : 0.0001000000     Max   : 26686.76       
+  RHS nonzeros       : Min   : 0.001467682      Max   : 1.139163e+08   
+CPLEX> CPLEX Error  1016: Community Edition. Problem size limits exceeded. Purchase at https://ibm.co/2s0wqSa.
+
+Error termination, CPLEX Error  1016.
+Solution time =    0.00 sec.
+Deterministic time = 0.00 ticks  (0.00 ticks/sec)
+
+CPLEX> CPLEX Error  1217: No solution exists.
+No file written.
+CPLEX> 
