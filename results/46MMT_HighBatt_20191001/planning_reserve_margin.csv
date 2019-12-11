@@ -1,5 +1,3 @@
-period,prm_peak_load_MW,planning_reserve_margin_fraction,capacity_target_MW,system_capacity_MW,firm_capacity_MW,prm_planned_import_capacity_MW,prm_import_resource_capacity_adjustment_MW,storage_ELCC_MW,new_renewable_import_capacity_MW,variable_renewable_ELCC_MW,planning_reserve_margin_dual_$,local_capacity_deficiency_MW,local_capacity_dual_$,marginal_solar_elcc_mw_per_fraction_of_annual_load,marginal_wind_elcc_mw_per_fraction_of_annual_load,active_elcc_facet_index,prm_peak_load_MW_before_EE_MW
-2020,49406.66,0.15,56817.66,57429.17,42935.92,5000.00,-1898.89,2883.65,0,8508.49,0,0,0,3159.97,25524.01,17,49406.66
-2022,50404.99,0.15,57965.74,57965.74,41256.35,5000.00,-1898.89,3961.76,0,9646.52,-434260.08,0,0,2092.16,17136.12,23,50404.99
-2026,51344.00,0.15,59045.61,59045.61,38501.66,5000.00,-1418.89,7100.04,0,9862.80,-175058.27,0,0,2131.14,17455.36,23,51344.00
-2030,51747.29,0.15,59509.39,59509.39,38175.02,5000.00,-1418.89,7695.13,0,10058.12,-14825.29,0,0,2147.88,17592.46,23,51747.29
+version https://git-lfs.github.com/spec/v1
+oid sha256:30597499d5fdd477dd862631e29676b6f00fdab51a33e68e5f7d58e7589583e3
+size 995

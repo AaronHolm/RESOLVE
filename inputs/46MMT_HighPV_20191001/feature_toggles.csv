@@ -1,16 +1,3 @@
-features,enabled
-allow_ee_investment,False
-include_electric_vehicles,True
-include_flexible_load,False
-include_hydrogen_electrolysis,True
-include_shed_dr,True
-maintenance,True
-multi_day_hydro_energy_sharing,False
-energy_sufficiency,False
-resource_use_tx_capacity,False
-allow_semi_storage_zones,False
-allow_tx_build,False
-transmission_ramp_limit,False
-variable_resources_upward_lf,False
-debug,False
-multi_day_storage_energy_sharing,False
+version https://git-lfs.github.com/spec/v1
+oid sha256:f63a0627e826a0709ec174511bf20ed4a247adfcb272e99a257807f34b2de2b7
+size 452
