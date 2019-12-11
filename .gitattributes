@@ -1,4 +1,6 @@
 *.csv filter=lfs diff=lfs merge=lfs -text
+results/*/*.csv filter=lfs diff=lfs merge=lfs -text
+results/*/summary/*.csv filter=lfs diff=lfs merge=lfs -text
 results/Framing2045_HighHydrogen_20191001/operations.csv filter=lfs diff=lfs merge=lfs -text
 results/Framing2045_HighElectrification_20191001/operations.csv filter=lfs diff=lfs merge=lfs -text
 results/Framing2045_HighBiofuels_20191001/operations.csv filter=lfs diff=lfs merge=lfs -text
