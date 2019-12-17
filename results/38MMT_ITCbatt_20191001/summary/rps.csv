@@ -1,5 +1,0 @@
-zone,period,rps_eligible_gen_mwh,scheduled_curtailment_mwh,Subhourly_Downward_LF_Energy_MWh,rps_storage_losses_mwh,rps_target_mwh,rps_banked_mwh,rps_constraint_dual_$,rps_nonmodeled_mwh,rps_net_bank_spent_mwh,rps_previously_banked_mwh,pipeline_biogas_generation_mwh,pipeline_biogas_cost_$_per_year,pipeline_biogas_max_dual_$_per_mmbtu,rps_unbundled_fraction_limit_dual_$_per_mwh,rps_target_before_ee_mwh
-CAISO,2020,80894119.79,251510.95,208552.91,484828.31,65867952.41,,0,2847608.82,0,0,0,0,0,0,65867952.41
-CAISO,2022,115967527.88,7662638.66,615718.39,2642161.76,76693566.26,,0,2847608.82,1724331.62,1724331.62,0,0,0,0,76693566.26
-CAISO,2026,119200076.90,4939992.91,649440.62,3201393.70,97627362.17,,0,2847608.82,23712970.10,23712970.10,0,0,0,0,97627362.17
-CAISO,2030,138725152.93,5971478.35,621328.32,7067106.13,116763872.30,,0,2847608.82,0,0,0,0,0,0,116763872.30
