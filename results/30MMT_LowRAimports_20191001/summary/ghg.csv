@@ -1,3 +1,5 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:07ec24d3c31bd5e2f7113882b2e9656c9c6d4229beb16e94bb1ea07d37ceade6
-size 394
+period,ghg_target_tco2_per_yr,ghg_emissions_credit_tco2_per_yr,ghg_constraint_dual_$,ghg_unspecified_imports_tco2_per_yr,ghg_emissions_within_area_tco2_per_yr
+2020,49373958.71,-5497381.38,0,10158964.78,28792183.46
+2022,44359166.97,-5504661.84,0,12537513.75,12967241.79
+2026,34329583.48,-5497663.74,-148.38,9034015.90,19797903.85
+2030,24300000.00,-5480417.63,-227.85,3050398.86,15769183.50

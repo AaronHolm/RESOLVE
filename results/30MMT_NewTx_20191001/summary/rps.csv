@@ -1,3 +1,5 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ca8ca28b7a7ad244af10e5be0b7f6c33417a1fe862dbf233a4c4d8fdeaf3a3d2
-size 871
+zone,period,rps_eligible_gen_mwh,scheduled_curtailment_mwh,Subhourly_Downward_LF_Energy_MWh,rps_storage_losses_mwh,rps_target_mwh,rps_banked_mwh,rps_constraint_dual_$,rps_nonmodeled_mwh,rps_net_bank_spent_mwh,rps_previously_banked_mwh,pipeline_biogas_generation_mwh,pipeline_biogas_cost_$_per_year,pipeline_biogas_max_dual_$_per_mmbtu,rps_unbundled_fraction_limit_dual_$_per_mwh,rps_target_before_ee_mwh
+CAISO,2020,80893150.02,252480.72,207821.58,484795.03,65867952.41,,0,2847608.82,0,0,0,0,0,0,65867952.41
+CAISO,2022,120194669.94,8964088.72,1146428.58,2158477.28,76693566.26,,0,2847608.82,1724331.62,1724331.62,0,0,0,0,76693566.26
+CAISO,2026,131524796.12,7321774.75,812751.93,3324525.66,97627362.17,,0,2847608.82,23712970.10,23712970.10,0,0,0,0,97627362.17
+CAISO,2030,155730117.60,6613564.88,759275.39,6631827.91,116763872.30,,0,2847608.82,0,0,0,0,0,0,116763872.30
